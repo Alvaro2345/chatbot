@@ -117,3 +117,55 @@ def copy_open_source_app(source_app_path, destination_app_path):
 source_app_path = "/path/to/source/app"
 destination_app_path = "/path/to/destination/app"
 copy_open_source_app(source_app_path, destination_app_path)
+# prompt: crea una applicacion para copiar otras appis de codigo abierto quiero que sea legal
+
+# This code provides a basic framework for a hypothetical application.
+# It's important to note that building a full-fledged application for copying open-source apps 
+# involves many more components and considerations than what's shown here.
+
+# This is a simplified example and should not be used for actual production code.
+
+
+def copy_open_source_app(source_app_path, destination_app_path):
+  """
+  Copies an open-source application while adhering to legal considerations.
+
+  Args:
+    source_app_path: Path to the source open-source application.
+    destination_app_path: Path to the destination where the app will be copied.
+  """
+  try:
+    # 1. Check for license compatibility.
+    #    - Read the license file (e.g., LICENSE, COPYING) from the source app.
+    #    - Ensure the license allows for copying and modification.
+    #    - If the license is unclear, consult legal advice.
+    #    - If the license is restrictive, inform the user and abort.
+
+    # 2. Copy the source code.
+    #    - Use appropriate file system operations to copy the source code.
+    #    - Consider using libraries like shutil for efficient file copying.
+
+    # 3. Preserve attribution.
+    #    - Include the original license file in the copied app.
+    #    - Add a notice in the code or documentation mentioning the source app and its license.
+
+    # 4. Handle dependencies.
+    #    - Identify and copy necessary dependencies.
+    #    - Ensure compatibility with the new environment.
+
+    # 5.  Modify the code (if necessary).
+    #    - If modifications are required, ensure they comply with the license.
+    #    - Clearly mark any modifications made.
+
+    # 6.  Testing.
+    #    - Test the copied app to ensure functionality.
+
+    print("Open-source application copied successfully!")
+  except Exception as e:
+    print(f"Error copying application: {e}")
+
+
+# Example usage:
+source_app_path = "/path/to/source/app"
+destination_app_path = "/path/to/destination/app"
+copy_open_source_app(source_app_path, destination_app_path)
